@@ -1,0 +1,245 @@
+{
+  "lastModified": "2018-08-01 16:46:16",
+  "msInfo": {
+    "serialNr": "12121221212121",
+    "msName": "miniserver",
+    "projectName": "Sample",
+    "localUrl": "192.168.1.1:1234",
+    "remoteUrl": "sample.dns.com:1234",
+    "tempUnit": 0,
+    "currency": "£",
+    "squareMeasure": "m²",
+    "location": "RH8 9HE",
+    "languageCode": "ENG",
+    "heatPeriodStart": "10-01",
+    "heatPeriodEnd": "04-30",
+    "coolPeriodStart": "05-01",
+    "coolPeriodEnd": "09-30",
+    "catTitle": "Category",
+    "roomTitle": "Room",
+    "miniserverType": 0,
+    "deviceMonitor": "101f01f3-0218-201e-ffff95eca2fd64fa",
+    "currentUser": {
+      "name": "admin",
+      "uuid": "0ec59d47-0211-43db-ffff95eca2fd64fa",
+      "isAdmin": true,
+      "changePassword": true,
+      "userRights": 2047
+    }
+  },
+  "partnerInfo": {
+    "name": "partner name",
+    "image": "11d4a602-00b3-f2fb-ffff759b19baba85.png",
+    "details": {
+      "phoneNumber": "",
+      "eMailAddress": "",
+      "website": ""
+    }
+  },
+  "globalStates": {
+    "operatingMode": "0ec59d47-01f1-4271-ffff95eca2fd64fa",
+    "sunrise": "0ec59d47-01f1-4283-ffff95eca2fd64fa",
+    "sunset": "0ec59d47-01f1-4286-ffff95eca2fd64fa",
+    "pastTasks": "0ec59d47-0211-4400-fffffa7de0e86c7a",
+    "plannedTasks": "0ec59d47-0211-43ff-fffffa7de0e86c7a",
+    "notifications": "0ec59d47-01f1-4242-ffff95eca2fd64fa",
+    "modifications": "11d4a602-00b3-f2fb-ffff759b19baba85",
+    "favColorSequences": "101f01f3-01ab-0bad-ffff0b32673a2233",
+    "favColors": "101f01f3-01ab-0bae-ffff0b32673a2233",
+    "miniserverTime": "107d15cf-038a-0230-ffff504f94109a4a"
+  },
+  "operatingModes": {
+    "0": "Public Holiday",
+    "1": "Holiday",
+    "2": "School Holidays",
+    "3": "Monday",
+    "4": "Tuesday",
+    "5": "Wednesday",
+    "6": "Thursday",
+    "7": "Friday",
+    "8": "Saturday",
+    "9": "Sunday",
+    "-1": "Alarm",
+    "-2": "Presence simulation",
+    "-3": "Fabric Protection",
+    "-4": "Warmer",
+    "-5": "Cooler",
+    "-6": "Away",
+    "-7": "AWAY MBED",
+    "-8": "Operating Mode",
+    "-9": "Operating Mode",
+    "-10": "No Motion"
+  },
+  "rooms": {
+    "0fda82fc-00f3-ce8b-ffff95eca2fd64fa": {
+      "uuid": "0fda82fc-00f3-ce8b-ffff95eca2fd64fa",
+      "name": "Master Ensuite",
+      "image": "00000000-0000-001f-2100000000000000.svg",
+      "defaultRating": 1,
+      "isFavorite": true,
+      "type": 2
+    },
+    "0fefa53f-00a3-9976-ffff95eca2fd64fa": {
+      "uuid": "0fefa53f-00a3-9976-ffff95eca2fd64fa",
+      "name": "Chloe Bedroom",
+      "image": "00000000-0000-0008-2100000000000000.svg",
+      "defaultRating": 1,
+      "isFavorite": true,
+      "type": 1
+    },
+    "0ec59ee6-0150-78f6-ffff95eca2fd64fa": {
+      "uuid": "0ec59ee6-0150-78f6-ffff95eca2fd64fa",
+      "name": "Den",
+      "image": "00000000-0000-0012-2100000000000000.svg",
+      "defaultRating": 1,
+      "isFavorite": true,
+      "type": 1
+    }
+  },
+  "cats": {
+    "0ec59d47-0201-434d-ffff95eca2fd64fa": {
+      "uuid": "0ec59d47-0201-434d-ffff95eca2fd64fa",
+      "name": "Alarm",
+      "image": "00000000-0000-002c-2000000000000000.svg",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "type": "undefined",
+      "color": "#69C350"
+    },   
+    "0ec59d47-01f1-42c7-ffff95eca2fd64fa": {
+      "uuid": "0ec59d47-01f1-42c7-ffff95eca2fd64fa",
+      "name": "Lighting",
+      "image": "00000000-0000-0002-2000000000000000.svg",
+      "defaultRating": 10,
+      "isFavorite": false,
+      "type": "lights",
+      "color": "#69C350"
+    }
+  },
+  "controls": {    
+    "0fe3e552-0153-6032-ffff95eca2fd64fa": {
+      "name": "Lighting controller",
+      "type": "LightController",
+      "uuidAction": "0fe3e552-0153-6032-ffff95eca2fd64fa",
+      "room": "0fefa53f-00a3-9976-ffff95eca2fd64fa",
+      "cat": "0ec59d47-01f1-42c7-ffff95eca2fd64fa",
+      "defaultRating": 1,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "movementScene": 1
+      },
+      "states": {
+        "activeScene": "0fe3e552-0153-602f-ffff18f8207a6762",
+        "sceneList": "101f01f9-0051-207c-ffff95eca2fd64fa"
+      },
+      "subControls": {
+        "0fe3e552-0153-6032-ffff95eca2fd64fa/AI1": {
+          "name": "Downlights",
+          "type": "Dimmer",
+          "uuidAction": "0fe3e552-0153-6032-ffff95eca2fd64fa/AI1",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "states": {
+            "position": "0fe3e552-0153-6023-ffff18f8207a6762",
+            "min": "0fe3e552-0153-6017-ffff18f8207a6762",
+            "max": "0fe3e552-0153-6018-ffff18f8207a6762",
+            "step": "0fe3e552-0153-6015-ffff18f8207a6762"
+          }
+        }
+      }
+    },
+    "0ec59fd7-0288-a9e3-ffff95eca2fd64fa": {
+      "name": "Lighting controller",
+      "type": "LightController",
+      "uuidAction": "0ec59fd7-0288-a9e3-ffff95eca2fd64fa",
+      "room": "0fda82fc-00f3-ce8b-ffff95eca2fd64fa",
+      "cat": "0ec59d47-01f1-42c7-ffff95eca2fd64fa",
+      "defaultRating": 1,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "movementScene": 1
+      },
+      "states": {
+        "activeScene": "0ec59fd7-0288-a9e0-ffff9e19fd05c821",
+        "sceneList": "101f01f3-0208-1bc7-ffff95eca2fd64fa"
+      },
+      "subControls": {
+        "0ec59fd7-0288-a9e3-ffff95eca2fd64fa/AI1": {
+          "name": "Downlights",
+          "type": "Dimmer",
+          "uuidAction": "0ec59fd7-0288-a9e3-ffff95eca2fd64fa/AI1",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "states": {
+            "position": "0ec59fd7-0288-a9d4-ffff9e19fd05c821",
+            "min": "0ec59fd7-0288-a9c8-ffff9e19fd05c821",
+            "max": "0ec59fd7-0288-a9c9-ffff9e19fd05c821",
+            "step": "0ec59fd7-0288-a9c6-ffff9e19fd05c821"
+          }
+        },
+        "0ec59fd7-0288-a9e3-ffff95eca2fd64fa/AI2": {
+          "name": "Mirror Light",
+          "type": "Switch",
+          "uuidAction": "0ec59fd7-0288-a9e3-ffff95eca2fd64fa/AI2",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "states": {
+            "active": "0ec59fd7-0288-a9d5-ffff9e19fd05c821"
+          }
+        }
+      }
+    },
+    "11886027-0020-e5c5-ffff3caf452840a4": {
+      "name": "AWAY MODE STUDY (MICHELLE)",
+      "type": "Switch",
+      "uuidAction": "11886027-0020-e5c5-ffff3caf452840a4",
+      "room": "0ec59d47-0220-44bc-ffff95eca2fd64fa",
+      "cat": "0ec59d47-01f1-42cf-ffff95eca2fd64fa",
+      "defaultRating": 0,
+      "isFavorite": false,
+      "isSecured": false,
+      "defaultIcon": null,
+      "states": {
+        "active": "11886027-0020-e5c2-ffff3caf452840a4"
+      }
+    },
+    "0ec5a681-023a-95d5-ffff95eca2fd64fa": {
+      "name": "Lighting controller",
+      "type": "LightController",
+      "uuidAction": "0ec5a681-023a-95d5-ffff95eca2fd64fa",
+      "room": "0fda82fc-00f3-ce8b-ffff95eca2fd64fa",
+      "cat": "0ec59d47-01f1-42c7-ffff95eca2fd64fa",
+      "defaultRating": 1,
+      "isFavorite": false,
+      "isSecured": false,
+      "details": {
+        "movementScene": 1
+      },
+      "states": {
+        "activeScene": "0ec5a681-023a-95d2-ffffa62323eca200",
+        "sceneList": "101f01f3-0208-1d8d-ffff95eca2fd64fa"
+      },
+      "subControls": {
+        "0ec5a681-023a-95d5-ffff95eca2fd64fa/AI1": {
+          "name": "Store Room",
+          "type": "Dimmer",
+          "uuidAction": "0ec5a681-023a-95d5-ffff95eca2fd64fa/AI1",
+          "defaultRating": 0,
+          "isFavorite": false,
+          "isSecured": false,
+          "states": {
+            "position": "0ec5a681-023a-95c6-ffffa62323eca200",
+            "min": "0ec5a681-023a-95ba-ffffa62323eca200",
+            "max": "0ec5a681-023a-95bb-ffffa62323eca200",
+            "step": "0ec5a681-023a-95b8-ffffa62323eca200"
+          }
+        }
+      }
+    }
+  }
+}

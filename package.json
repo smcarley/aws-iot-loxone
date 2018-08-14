@@ -1,0 +1,19 @@
+{
+  "name": "aws-iot-loxone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "iot-loader.js",
+  "dependencies": {
+    "aws-sdk": "^2.290.0",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC"
+}

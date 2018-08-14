@@ -1,0 +1,9 @@
+{
+    "loxoneUri": "username:password@192.168.1.1:1234",
+    "aws": {
+        "thingGroup": "thingGroup",
+        "policy": "thingGroup-Policy",
+        "account": "aws:iot:eu-west-1:11111111111",
+        "endpoint": "https://iot.eu-west-1.amazonaws.com"
+    }
+}
